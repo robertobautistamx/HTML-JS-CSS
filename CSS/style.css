@@ -1,0 +1,16 @@
+* {
+    font-family: "Geist Mono", monospace;
+    
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    background-color: lightgray;
+  }
+  .flex-item {
+    display: inline-block;
+    background-color: skyblue;
+    padding: 10px;
+  }
