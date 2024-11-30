@@ -1,0 +1,66 @@
+/* centrar */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f4f8;
+    font-family: Arial, sans-serif;
+}
+
+/* formulario */
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* titulo del formulario */
+h1 {
+    color: #4a90e2;
+    margin-bottom: 20px;
+}
+
+/* etiquetas */
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+}
+
+/* campos de entrada */
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+/* botones */
+input[type="submit"], button {
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover, button:hover {
+    background-color: #3b79c2;
+}
+
+/*botoncancelar */
+button {
+    background-color: #d9534f;
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: #c9302c;
+}
